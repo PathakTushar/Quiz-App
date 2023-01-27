@@ -1,0 +1,103 @@
+.home{
+    height: 100vh;
+    background-color: #020230;
+    display: flex;
+    color: white;
+}
+/* #010120 */
+.main{
+    width: 70%;
+    background: linear-gradient(to bottom,rgba(0,0,0,0), #010120),url('./assets/back_2.jpg');
+    /* background: url('./assets/back_2.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    display: flex;
+    flex-direction: column;
+}
+.upperHalf{
+    height: 50%;
+    font-size: 2rem;
+    position: relative;
+}
+.backButton {
+    padding: 0.5rem 1rem;
+    outline: none;
+    margin: 1rem 1rem;
+    border-radius: 0.5rem;
+    border: transparent;
+    text-align: center;
+    font-size: 2rem;
+    cursor: pointer;
+    box-shadow: -3px 5px 15px #000;
+}
+
+.backButton:hover {
+    background-color: #184267;
+    color: white;
+}
+
+.timerLogo{
+    font-weight: 500;
+    border: 5px solid white;
+    border-radius: 50%;
+    padding: 2rem;
+    position: absolute;
+    bottom: 3%;
+    left: 45%;
+}
+.pyramid{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.userName{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    background-color: #184267;
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    pointer-events: none;
+    box-shadow: -3px 5px 15px #000;
+}
+
+.prizePool{
+    list-style: none;
+    width: 90%;
+    padding: 20px;
+}
+.prizePoolItem{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin: 1rem 0;
+}
+.prizePoolItem.active{
+    background-color: rgb(0, 128, 79);
+    color: #fff;
+}
+.prizePoolNumber{
+    font-size: 1.25rem;
+    font-weight: 100;
+    width: 40%;
+}
+.prizePoolAmount{
+    font-size: 20px;
+    font-weight: 300;
+}
+.finalScreen{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 40%;
+}
+.score{
+    font-size: 3rem;
+}
