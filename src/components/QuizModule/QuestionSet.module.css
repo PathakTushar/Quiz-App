@@ -96,3 +96,30 @@
     right: 0;
     margin: auto;
 }
+
+@media (max-width: 450px) {
+    .questionContainer{
+        height: 80%;
+        justify-content: space-evenly;
+    }
+    .question{
+        border: 1px solid white;
+        padding: 1rem 2rem;
+        width: 70%;
+        text-align: center;
+        border-radius: 1rem;
+        font-size: 1rem;
+    }
+    .options {
+        width: 80%;
+        flex-direction: column;
+    }
+
+    .answer {
+        width: 80%;
+        border: 1px solid white;
+        margin: 0.5rem;
+        padding: 0.5rem 2rem;
+        font-size: 0.75rem;
+    }
+}

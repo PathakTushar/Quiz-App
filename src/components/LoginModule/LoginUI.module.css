@@ -49,3 +49,11 @@ button[disabled] {
     margin-top: 1rem;
     font-size: 2.5rem;
 }
+@media (max-width: 450px) {
+    .input {
+        width: 75%;
+    }
+    .button{
+        left: 25%;
+    }
+}
