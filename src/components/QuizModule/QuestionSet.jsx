@@ -42,7 +42,6 @@ const QuestionSet = ({ activeQuestion, setStop, setActiveQuestion, onSetLoading 
             }
         }, 2000);
     }
-    // <h1 className={classes.loader}>Loading...</h1>
     return <>
         {loading && <div className={classes.loader}><LoadingSpinner /></div>}
         {(!loading && activeQuestion <= 10) &&
